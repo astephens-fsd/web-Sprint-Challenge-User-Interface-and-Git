@@ -28,9 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+/* body {
 	line-height: 1;
-}
+} */
 ol, ul {
 	list-style: none;
 }
@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html, body {
@@ -66,9 +68,43 @@ p {
     line-height: 1.4;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* header styles */
+nav{
+    position:fixed;
+    width:780px;
+    top:20%;
+    height:10vh;
+    z-index: 999;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+    width: 3%;
+}
+
+.links{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* top-img styles */
+.top-img{
+    position: r
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 30%;
+    
 }
 
 .top-content {
